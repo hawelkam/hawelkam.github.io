@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a938d36e.chunk.css",
+    "main.js": "/static/js/main.2f5ead54.chunk.js",
+    "main.js.map": "/static/js/main.2f5ead54.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.df83a803.js",
+    "runtime-main.js.map": "/static/js/runtime-main.df83a803.js.map",
+    "static/js/2.f447b3d8.chunk.js": "/static/js/2.f447b3d8.chunk.js",
+    "static/js/2.f447b3d8.chunk.js.map": "/static/js/2.f447b3d8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd440792985f4a0e44e7ccb244b6994b.js": "/precache-manifest.dd440792985f4a0e44e7ccb244b6994b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a938d36e.chunk.css.map": "/static/css/main.a938d36e.chunk.css.map",
+    "static/js/2.f447b3d8.chunk.js.LICENSE.txt": "/static/js/2.f447b3d8.chunk.js.LICENSE.txt",
+    "static/media/anima-logo.png": "/static/media/anima-logo.2818cb62.png",
+    "static/media/capgemini-logo.png": "/static/media/capgemini-logo.9f2ea199.png",
+    "static/media/ekruk.png": "/static/media/ekruk.93196044.png",
+    "static/media/gameup.png": "/static/media/gameup.34cc1659.png",
+    "static/media/jarock-logo.png": "/static/media/jarock-logo.02462f1f.png",
+    "static/media/logo-kruk.png": "/static/media/logo-kruk.74b24ef1.png",
+    "static/media/luz-logo.png": "/static/media/luz-logo.36ef302b.png",
+    "static/media/michalhawelka.png": "/static/media/michalhawelka.ba24e397.png",
+    "static/media/nokia-logo.png": "/static/media/nokia-logo.611b0bd2.png",
+    "static/media/ok-logo.png": "/static/media/ok-logo.c3b9f376.png",
+    "static/media/Hero.scss": "/static/media/pattern.790029ca.png",
+    "static/media/pb-portfolio.png": "/static/media/pb-portfolio.a87c1243.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df83a803.js",
+    "static/js/2.f447b3d8.chunk.js",
+    "static/css/main.a938d36e.chunk.css",
+    "static/js/main.2f5ead54.chunk.js"
+  ]
+}

@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(90deg, #9bdb6de7, #4bc0b5e7), black;
+
+  background-size: 400% 100%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.mh-name {
+  color: black;
+  font-weight: bold;
+}
+
+.mh-main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  &__buttons {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.mh-button {
+  background: none;
+  border: 2px solid;
+  outline: none;
+  padding: 20px;
+  width: 40%;
+  height: 5rem;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  transition: 1s ease;
+  font-weight: bold;
+  &:hover {
+    color: black;
+    border-color: white;
+    border-radius: 50px;
+    background-color: white;
+  }
+}

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.46629363.chunk.css",
-    "main.js": "/static/js/main.b9c116bd.chunk.js",
-    "main.js.map": "/static/js/main.b9c116bd.chunk.js.map",
+    "main.css": "/static/css/main.587387da.chunk.css",
+    "main.js": "/static/js/main.47de1aa7.chunk.js",
+    "main.js.map": "/static/js/main.47de1aa7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.df83a803.js",
     "runtime-main.js.map": "/static/js/runtime-main.df83a803.js.map",
-    "static/js/2.607823de.chunk.js": "/static/js/2.607823de.chunk.js",
-    "static/js/2.607823de.chunk.js.map": "/static/js/2.607823de.chunk.js.map",
+    "static/js/2.51549b1a.chunk.js": "/static/js/2.51549b1a.chunk.js",
+    "static/js/2.51549b1a.chunk.js.map": "/static/js/2.51549b1a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5cf32a25bbf298bd053bd6a1d53c0889.js": "/precache-manifest.5cf32a25bbf298bd053bd6a1d53c0889.js",
+    "precache-manifest.7083a2891b66468cafdf2ef5425972d9.js": "/precache-manifest.7083a2891b66468cafdf2ef5425972d9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.46629363.chunk.css.map": "/static/css/main.46629363.chunk.css.map",
-    "static/js/2.607823de.chunk.js.LICENSE.txt": "/static/js/2.607823de.chunk.js.LICENSE.txt",
+    "static/css/main.587387da.chunk.css.map": "/static/css/main.587387da.chunk.css.map",
+    "static/js/2.51549b1a.chunk.js.LICENSE.txt": "/static/js/2.51549b1a.chunk.js.LICENSE.txt",
     "static/media/anima-logo.png": "/static/media/anima-logo.2818cb62.png",
     "static/media/capgemini-logo.png": "/static/media/capgemini-logo.9f2ea199.png",
     "static/media/ekruk.png": "/static/media/ekruk.93196044.png",
@@ -19,16 +19,15 @@
     "static/media/jarock-logo.png": "/static/media/jarock-logo.02462f1f.png",
     "static/media/logo-kruk.png": "/static/media/logo-kruk.74b24ef1.png",
     "static/media/luz-logo.png": "/static/media/luz-logo.36ef302b.png",
-    "static/media/michalhawelka.png": "/static/media/michalhawelka.ba24e397.png",
+    "static/media/Hero.scss": "/static/media/mhawelka.c056b55c.png",
     "static/media/nokia-logo.png": "/static/media/nokia-logo.611b0bd2.png",
     "static/media/ok-logo.png": "/static/media/ok-logo.c3b9f376.png",
-    "static/media/Hero.scss": "/static/media/pattern.790029ca.png",
     "static/media/pb-portfolio.png": "/static/media/pb-portfolio.a87c1243.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df83a803.js",
-    "static/js/2.607823de.chunk.js",
-    "static/css/main.46629363.chunk.css",
-    "static/js/main.b9c116bd.chunk.js"
+    "static/js/2.51549b1a.chunk.js",
+    "static/css/main.587387da.chunk.css",
+    "static/js/main.47de1aa7.chunk.js"
   ]
 }

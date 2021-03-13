@@ -1,8 +1,4 @@
 body {
-  background: linear-gradient(90deg, #9bdb6de7, #4bc0b5e7), black;
-
-  background-size: 400% 100%;
-  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -23,6 +19,10 @@ body {
 }
 
 .mh-main {
+  background: linear-gradient(90deg, #9bdb6de7, #4bc0b5e7), black;
+
+  background-size: 400% 100%;
+  animation: gradient 15s ease infinite;
   display: flex;
   height: 100vh;
   flex-direction: column;

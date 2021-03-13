@@ -1,21 +1,14 @@
 .header__logo {
-    font-size: 170%;
-}
-
-
-.sticky {
-  background: #333;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  box-shadow: 1px 1px 1px #222;
-  animation: moveDown 0.5s ease-in-out;
-  z-index: 9999;
+  font-size: 170%;
 }
 
 .active {
   font-weight: 700;
+}
+
+.mh-navbar {
+  margin: auto;
+  max-width: 1366px;
 }
 
 @keyframes moveDown {

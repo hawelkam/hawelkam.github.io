@@ -4,9 +4,9 @@ import { Row, Col } from 'react-bootstrap'
 import SectionHeading from '../SectionHeading'
 import { Fade } from 'react-reveal'
 
-const About = ({ element }) => {
+const About = () => {
     return (
-        <section className="about" id="about" ref={element}>
+        <section className="about" id="about">
             <SectionHeading text="ABOUT ME" />
             <Row>
                 <Col className="about__long-copy text-center">

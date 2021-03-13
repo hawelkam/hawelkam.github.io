@@ -6,10 +6,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 
 
-const TopBar = ({sticky}) => {
+const TopBar = () => {
     return (
-        <header>
-            <Navbar collapseOnSelect expand="lg" bg="primary" className="sticky">
+        <header className="bg-primary">
+            <Navbar collapseOnSelect expand="lg" className="mh-navbar">
                 <Navbar.Brand className="header__logo">MICHAŁ<b>HAWEŁKA</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">

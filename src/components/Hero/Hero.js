@@ -1,28 +1,21 @@
 import React from 'react'
 import './Hero.scss'
 import { Row, Col } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBolt } from '@fortawesome/free-solid-svg-icons'
-import heroPhoto from '../../img/michalhawelka.png'
-import { Bounce } from 'react-reveal'
 
 const Hero = () => {
     return (
         <section className="hero" id="hero">
             <Row className="hero__introduction">
-                <Col className="d-flex justify-content-end align-items-center text-center">
-                    <Bounce left>
-                        <img className="hero__photo" src={heroPhoto} alt="Michał Hawełka" />
-                    </Bounce>
+                <Col xs={12} md={6} className="hero__photo">
                 </Col>
                 <Col className="d-flex flex-column justify-content-center">
-                    <Bounce right>
-                        <h2>FRONTEND DEVELOPER</h2>
-                        <FontAwesomeIcon icon={faBolt} size="2x" className="hero__lightning-icon"/>
-                        <h2>VIDEO EDITOR</h2>
-                        <FontAwesomeIcon icon={faBolt} size="2x" className="hero__lightning-icon"/>
-                        <h2>VIDEO GAMES JOURNALIST</h2>
-                    </Bounce>
+                    <h2>About me</h2>
+                    <p>
+                        I'm a frontend developer for BNY Mellon. I love creating visually interesting designs and user-friendly interfaces. UX is a very important topic for me. 
+                    </p>
+                    <div className="mh-button__wrapper">
+                        <button className="mh-button">GET MY RESUME</button>
+                    </div>
                 </Col>
             </Row>
         </section>

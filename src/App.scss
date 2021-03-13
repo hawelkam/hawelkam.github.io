@@ -33,7 +33,7 @@ p {
   font-family: "Roboto Slab", serif;
   text-align: justify;
   width: 70%;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 1rem auto;
 }
 
 p:last-child {
@@ -80,13 +80,14 @@ p:last-child {
 }
 
 .section-heading {
-  padding: 100px 0;
-  font-size: 250%;
+  padding: 4rem 0;
   margin-bottom: 0;
 }
 
-section {
-  padding-bottom: 100px;
+.row {
+  max-width: 1366px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {

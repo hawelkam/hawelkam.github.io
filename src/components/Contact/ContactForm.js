@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Col, Form, Button } from 'react-bootstrap'
+import { Form, Button } from 'react-bootstrap'
 
 export default class ContactForm extends Component {
     state = {
@@ -52,32 +52,27 @@ export default class ContactForm extends Component {
 
     render() {
         return (
-            <Col>
                 <Form className="contact-form" onSubmit={(e) => this.handleSubmit(e)}>
                 {this.state.formEmailSent ? 
                     (<p>Your message has been sent!</p>) : 
                     (
                         <>
                             <Form.Group controlId="form.name">
-                                <Form.Label>Name</Form.Label>
-                                <Form.Control type="text" name="senderName" placeholder="Name..." value={this.state.senderName} onChange={this.handleChange}/>
+                                <Form.Control required type="text" name="senderName" placeholder="Name..." value={this.state.senderName} onChange={this.handleChange}/>
                             </Form.Group>
                             <Form.Group controlId="form.email">
-                                <Form.Label>Email address</Form.Label>
-                                <Form.Control type="email" name="senderEmail" placeholder="Email..." value={this.state.senderEmail} onChange={this.handleChange}/>
+                                <Form.Control required type="email" name="senderEmail" placeholder="Email..." value={this.state.senderEmail} onChange={this.handleChange}/>
                             </Form.Group>
                             <Form.Group controlId="form.message">
-                                <Form.Label>Message</Form.Label>
-                                <Form.Control as="textarea"  name="message" rows="6" value={this.state.message} onChange={this.handleChange}/>
+                                <Form.Control required as="textarea"  name="message" placeholder="Type your message..." rows="6" value={this.state.message} onChange={this.handleChange}/>
                             </Form.Group>
-                            <Button variant="secondary" type="submit">
+                            <Button variant="secondary" type="submit" className="mh-button">
                                 Submit
                             </Button>
                         </>
                     )
                 }
                 </Form>
-            </Col>
         )
     }
 }

@@ -1,14 +1,30 @@
 footer {
-    color: rgba(208, 208, 208, 0.749);
-    background-color: rgb(70, 70, 70);
+  color: rgba(208, 208, 208, 0.749);
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  p {
     text-align: center;
-    p {
-        text-align: center;
-        &:first-child {
-            padding-top: 50px;
-        }
-        &:last-child {
-            padding-bottom: 50px;
-        }
+    &:first-child {
+      padding-top: 50px;
     }
+    &:last-child {
+      padding-bottom: 50px;
+    }
+  }
+}
+
+.footer__back-to-top {
+  position: relative;
+  top: -2rem;
+  background: white;
+  border: none;
+  width: 10%;
+  height: 4rem;
+  transition: 1s ease;
+  outline: none;
+  &:hover,
+  &:active {
+    outline: none;
+    border-radius: 50px;
+  }
 }

@@ -8,7 +8,6 @@ import Testimonials from './Testimonials/Testimonials';
 import Contact from './Contact/Contact'
 import Footer from './Footer/Footer';
 import Experience from './Experience/Experience';
-import { Link } from 'react-scroll';
 
 const OldMain = () => {
 
@@ -21,7 +20,6 @@ const OldMain = () => {
         <Testimonials />
         <Companies />
         <Contact />
-        <Link to="pageTop" spy={true} smooth={true} offset={-70} duration={500}><button>BACK TO TOP</button></Link>
         <Footer />
       </Container>
     )

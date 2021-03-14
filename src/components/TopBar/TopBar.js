@@ -8,7 +8,7 @@ import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-ico
 
 const TopBar = () => {
     return (
-        <header className="bg-primary">
+        <header className="bg-primary" id="pageTop">
             <Navbar collapseOnSelect expand="lg" className="mh-navbar">
                 <Navbar.Brand className="header__logo">MICHAŁ<b>HAWEŁKA</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

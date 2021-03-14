@@ -2,6 +2,7 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 import './Experience.scss';
 import SectionHeading from '../SectionHeading';
+import { Fade } from 'react-reveal';
 
 const Experience = () => {
     return (
@@ -9,25 +10,28 @@ const Experience = () => {
             <SectionHeading text="Skills" />
             <Row>
                 <Col>
-                    <ul className="skills__list">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>ES6</li>
-                        <li>Angular</li>
-                        <li>React</li>
-                        <li>SASS</li>
-                        <li>Bootstrap 4</li>
-                        <li>AngularJS</li>
-                        <li>REST</li>
-                        <li>BEM</li>
-                        <li>Postman</li>
-                        <li>Adobe Photoshop</li>
-                        <li>Git</li>
-                        <li>Agile</li>
-                        <li>Scrum</li>
-                        <li>Adobe XD</li>
-                    </ul>
+                    <p className="text-center">Here is the list of technologies and frameworks I have worked with:</p>
+                    <Fade bottom cascade>
+                        <ul className="skills__list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>ES6</li>
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>SASS</li>
+                            <li>Bootstrap 4</li>
+                            <li>AngularJS</li>
+                            <li>REST</li>
+                            <li>BEM</li>
+                            <li>Postman</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Git</li>
+                            <li>Agile</li>
+                            <li>Scrum</li>
+                            <li>Adobe XD</li>
+                        </ul>
+                    </Fade>
                 </Col>
             </Row>
             {/* <Tab.Container id="skills_tabs" defaultActiveKey="frontend">

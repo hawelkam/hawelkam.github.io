@@ -80,14 +80,18 @@ p:last-child {
 }
 
 .section-heading {
-  padding: 4rem 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .row {
   max-width: 1366px !important;
   margin-left: auto;
   margin-right: auto;
+}
+
+section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 @media screen and (max-width: 768px) {

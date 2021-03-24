@@ -16,7 +16,7 @@ const Hero = () => {
                         I'm a frontend developer for BNY Mellon. I love creating visually interesting designs and user-friendly interfaces. I have a background in backend development as I started my IT journey in C++, then moved on to Java and eventually I found my place in frontend development. I worked with both Angular and React, but React is my technology of choice.
                     </p>
                     <div className="mh-button__wrapper">
-                        <button className="mh-button">GET MY RESUME</button>
+                        <a href={process.env.PUBLIC_URL + '/mhawelka_cv.pdf'}target="_blank" rel="noreferrer noopener"><button className="mh-button">GET MY RESUME</button></a>
                     </div>
                 </Col>
             </Row>

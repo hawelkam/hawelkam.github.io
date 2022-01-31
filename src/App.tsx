@@ -103,7 +103,7 @@ function App() {
         Get my resume
       </h3>
       <div className="font-oxygen text-7xl text-left tracking-wide leading-snug font-light">
-        <a href="mhawelka_cv.pdf" download="mhawelka_resume">
+        <a href="mhawelka_resume.pdf" download="mhawelka_resume">
           Download
         </a>
       </div>
